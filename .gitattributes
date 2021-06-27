@@ -3,3 +3,9 @@
 *.scss linguist-vendored
 *.js linguist-vendored
 CHANGELOG.md export-ignore
+/public/mix-manifest.json merge=ours
+/public/js/*.js merge=ours
+/public/js/*.txt merge=ours
+/public/css/*.css merge=ours
+composer.lock merge=ours
+package-lock.json merge=ours
