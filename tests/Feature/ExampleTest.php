@@ -20,7 +20,7 @@ class ExampleTest extends TestCase
         $response = $this->get('/');
 
         $data = [
-            'name' => 'Alos',
+            'name' => 'Alo',
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi',
             'email' => 'alonso@avotz.com'
         ];
